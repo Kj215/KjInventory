@@ -1,0 +1,81 @@
+/* LoginPage.css */
+
+.login-page {
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .login-box {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    text-align: center;
+  }
+  
+  .login-box h2 {
+    margin-bottom: 25px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+  }
+  
+  .login-form label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .login-form input {
+    padding: 12px 14px;
+    border: 1.8px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .login-form input:focus {
+    border-color: #764ba2;
+    outline: none;
+  }
+  
+  .error-message {
+    color: #d93025;
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-top: -10px;
+    margin-bottom: 5px;
+  }
+  
+  .login-form button {
+    background: #764ba2;
+    color: white;
+    font-weight: 700;
+    padding: 12px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-form button:disabled {
+    background: #bfa7d9;
+    cursor: not-allowed;
+  }
+  
+  .login-form button:hover:not(:disabled) {
+    background: #5a3580;
+  }
+  

@@ -1,0 +1,82 @@
+.customer-form {
+    max-width: 400px;
+    margin: 0 auto 30px;
+    padding: 20px 24px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+    user-select: none;
+  }
+  
+  .customer-form h3 {
+    margin-bottom: 20px;
+    color: #0d47a1;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 14px 18px;
+    margin-bottom: 18px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1.8px solid #cfd8dc;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    outline-offset: 3px;
+    outline-color: transparent;
+    box-sizing: border-box;
+  }
+  
+  .input-field:focus {
+    border-color: #1976d2;
+    box-shadow: 0 0 8px rgba(25, 118, 210, 0.4);
+    outline-color: #1976d2;
+  }
+  
+  .input-field::placeholder {
+    color: #a0a0a0;
+    font-style: italic;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 14px 0;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    user-select: none;
+    box-shadow: 0 4px 12px rgba(25, 118, 210, 0.6);
+  }
+  
+  .submit-btn:hover,
+  .submit-btn:focus {
+    background-color: #125ea9;
+    outline: none;
+    box-shadow: 0 6px 18px rgba(18, 94, 169, 0.8);
+  }
+  
+  @media (max-width: 480px) {
+    .customer-form {
+      padding: 16px 20px;
+    }
+  
+    .input-field {
+      padding: 12px 14px;
+      font-size: 0.9rem;
+    }
+  
+    .submit-btn {
+      font-size: 1rem;
+      padding: 12px 0;
+    }
+  }
+  

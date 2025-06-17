@@ -1,0 +1,116 @@
+/* Container */
+.modern-purchase-form {
+    max-width: 480px;
+    margin: 2rem auto;
+    padding: 2rem 2.5rem;
+    background: linear-gradient(145deg, #ffffff, #e6f0ff);
+    border-radius: 12px;
+    box-shadow:
+      6px 6px 12px #c1d4ff,
+      -6px -6px 12px #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1a1a1a;
+    transition: box-shadow 0.3s ease;
+  }
+  .modern-purchase-form:hover {
+    box-shadow:
+      8px 8px 20px #b0c7ff,
+      -8px -8px 20px #f0f6ff;
+  }
+  
+  .modern-purchase-form h3 {
+    text-align: center;
+    margin-bottom: 1.8rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: 0.03em;
+    color: #0046c3;
+    text-shadow: 1px 1px 2px #b0c7ff;
+  }
+  
+  /* Input groups */
+  .input-group {
+    margin-bottom: 1.4rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group label {
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    color: #0b2d99;
+    user-select: none;
+  }
+  
+  /* Inputs and textarea */
+  .modern-purchase-form input[type="text"],
+  .modern-purchase-form input[type="number"],
+  .modern-purchase-form input[type="date"],
+  .modern-purchase-form textarea {
+    padding: 0.65rem 1rem;
+    border-radius: 8px;
+    border: 1.5px solid #b3c6ff;
+    background: #f9fbff;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #222;
+    box-shadow:
+      inset 2px 2px 5px #d9e2ff,
+      inset -2px -2px 5px #ffffff;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+    resize: vertical;
+    min-height: 40px;
+  }
+  
+  .modern-purchase-form input:focus,
+  .modern-purchase-form textarea:focus {
+    border-color: #3d66ff;
+    box-shadow:
+      0 0 8px #4d7bff88,
+      inset 2px 2px 7px #d0dbff,
+      inset -2px -2px 7px #ffffff;
+    outline: none;
+  }
+  
+  /* Error styles */
+  error {
+    border-color: #ff4b5c !important;
+    box-shadow:
+      0 0 8px rgba(255, 75, 92, 0.53) !important;inset :2px 2px 7px #f9c0c7,inset -2px -2px 7px #fff1f3 !important;
+  }
+  
+  .error-text {
+    color: #ff4b5c;
+    font-size: 0.85rem;
+    margin-top: 0.3rem;
+    font-weight: 600;
+  }
+  
+  /* Submit button */
+  .btn-submit {
+    width: 100%;
+    padding: 0.8rem 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    background: linear-gradient(45deg, #4a76ff, #0066ff);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px #3762ffaa;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    user-select: none;
+  }
+  
+  .btn-submit:hover {
+    background: linear-gradient(45deg, #3666ff, #004de6);
+    box-shadow: 0 8px 20px #254dbbcc;
+  }
+  
+  .btn-submit:active {
+    background: #0044cc;
+    box-shadow: none;
+    transform: scale(0.98);
+    transition: transform 0.1s ease;
+  }
+  

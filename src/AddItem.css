@@ -1,0 +1,62 @@
+/* AddItem form container */
+.add-item-form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Form fields */
+  .add-item-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .add-item-form input,
+  .add-item-form select {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 14px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.2s ease;
+  }
+  
+  .add-item-form input:focus,
+  .add-item-form select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px #007bff;
+  }
+  
+  /* Submit button */
+  .add-item-form button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    font-weight: 700;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.25s ease;
+  }
+  
+  .add-item-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Optional: Error message styling */
+  .add-item-form .error {
+    color: #d9534f;
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+  }
+  

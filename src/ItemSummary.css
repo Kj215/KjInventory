@@ -1,0 +1,23 @@
+.item-summary {
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 6px;
+    max-width: 600px;
+    margin: 1rem auto;
+  }
+  
+  .summary-section {
+    margin-bottom: 1rem;
+  }
+  
+  .summary-section h4 {
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .summary-section ul {
+    list-style: disc inside;
+    padding-left: 1rem;
+    color: #555;
+  }
+  
